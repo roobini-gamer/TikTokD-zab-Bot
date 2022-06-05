@@ -1,0 +1,40 @@
+{
+  "name": "TikTok D'zab Downloader Bot",
+  "description": "A Telegram bot to download Shity&Cringe TikTok videos without any watermark",
+  "logo" : "https://telegra.ph/file/0558a00dec840241656cc.jpg",
+  "success_url" : "https://t.me/chatmqwd",
+  "keywords": [
+    "telegram",
+    "bot",
+    "tiktok",
+    "jaybee"
+  ],
+  "repository": "https://github.com/roobini-gamer/TikTokD-zab-Bot",
+  "website": "https://github.com/roobini-gamer/TikTokD-zab-Bot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot Bot Token, get this value from @BotFather.",
+      "value": ""
+    },
+    "API_KEY": {
+      "description": "Your APP API KEY, get this from https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Your APP HASH, get this from https://my.telegram.org",
+     "value": ""
+    },
+    "CHANNEL_URL": {
+      "description": "URL of your Telegram channel link.",
+      "value": ""
+    },
+    "BOT_URL": {
+      "description": "Username of your Telegram Bot (without @). Example: StinkyShit420",
+      "value": ""
+    },
+    "WORKERS": {
+      "description": "Number of threads to use, this depends on usage.  4 is the recommended (and default) amount, but your experience may vary.",
+      "value": "4"
+    }
+  }
+}
